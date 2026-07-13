@@ -28,6 +28,7 @@
 body {
     background-color: var(--bg0);
     font-family: inter;
+    margin: 0;
 }
 .page {
     width: var(--w);
@@ -35,6 +36,7 @@ body {
     background-color: var(--bg1);
     margin: auto;
     padding: var(--p);
+    box-sizing: border-box;
 }
 .content {
     width: 100%;
@@ -58,13 +60,13 @@ h1 {
     font-size: var(--fs);
 }
 h2 {
-    font-size: calc(var(--fs) * .7);
-}
-h3 {
     font-size: calc(var(--fs) * .6);
 }
-p, li {
+h3 {
     font-size: calc(var(--fs) * .5);
+}
+p, li {
+    font-size: calc(var(--fs) * .4);
 }
 span {
     color: var(--fg1);
