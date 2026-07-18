@@ -1,6 +1,7 @@
 /* style.css */
 
 :root {
+    /* dimensions */
     --w: 210mm;
     --h: 297mm;
     --p: 15mm;
@@ -8,19 +9,23 @@
     --g: 3mm;
     --fs: 18pt;
 
+    /* border colors */
     --bc0: #484868;
     --bc1: #666;
     --bc2: #555;
     --bc3: #444;
 
+    /* background colors */
     --bg0: #333;
     --bg1: #222;
     --bg2: #48486822;
     --bg3: #6662;
 
-    --ibg: #fff;
+    /* image colors */
+    --ibg: #2a2a2a;
     --ibc: #888;
 
+    /* foreground colors */
     --fg0: #ddd;
     --fg1: #bbb;
     --fg2: #888;
@@ -82,7 +87,7 @@ span {
     background-color: var(--bg2);
     display: grid;
     grid-template-columns: 1fr 3fr;
-    gap: var(--g) 0;
+    gap: var(--g);
     padding: var(--g);
     border-radius: var(--br);
     border: 1px solid var(--bc0);
@@ -101,7 +106,7 @@ span {
 }
 img {
     height: 35mm;
-    background-color: var(--bg1);
+    background-color: var(--ibg);
     border: 1px solid var(--bc0);
     border-radius: 50%;
 }

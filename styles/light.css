@@ -1,6 +1,7 @@
 /* style.css */
 
 :root {
+    /* dimensions */
     --w: 210mm;
     --h: 297mm;
     --p: 15mm;
@@ -8,19 +9,23 @@
     --g: 3mm;
     --fs: 18pt;
 
+    /* border colors */
     --bc0: #448;
     --bc1: #aaa;
     --bc2: #bbb;
     --bc3: #ccc;
 
+    /* background colors */
     --bg0: #333;
     --bg1: #fff;
     --bg2: #4482;
     --bg3: #aaa2;
 
+    /* image colors */
     --ibg: #fff;
     --ibc: #888;
 
+    /* foreground colors */
     --fg0: #222;
     --fg1: #333;
     --fg2: #888;
@@ -82,7 +87,7 @@ span {
     background-color: var(--bg2);
     display: grid;
     grid-template-columns: 1fr 3fr;
-    gap: var(--g) 0;
+    gap: var(--g);
     padding: var(--g);
     border-radius: var(--br);
     border: 1px solid var(--bc0);
@@ -101,7 +106,7 @@ span {
 }
 img {
     height: 35mm;
-    background-color: var(--bg1);
+    background-color: var(--ibg);
     border: 1px solid var(--bc0);
     border-radius: 50%;
 }
