@@ -4,8 +4,15 @@ Responsive Curriculum Vitae built with HTML & CSS, available in both light & dar
 
 ## Documents
 
-- [light cv](documents/cv-light.pdf)
-- [dark cv](documents/cv-dark.pdf)
+### Aeronautical Engineer
+
+- [light cv](documents/aeronautical-engineer/light.pdf)
+- [dark cv](documents/aeronautical-engineer/dark.pdf)
+
+### Developer
+
+- [light cv](documents/developer/light.pdf)
+- [dark cv](documents/developer/dark.pdf)
 
 ## Preview
 
@@ -35,13 +42,34 @@ Responsive Curriculum Vitae built with HTML & CSS, available in both light & dar
 .
 ├── assets
 │   ├── fonts
+│   │   ├── Inter_18pt-BoldItalic.ttf
+│   │   ├── Inter_18pt-Bold.ttf
+│   │   ├── Inter_18pt-Italic.ttf
+│   │   └── Inter_18pt-Regular.ttf
 │   └── img
 │       ├── mockups
+│       │   ├── dark.png
+│       │   └── light.png
 │       └── profile
+│           └── emanuel.png
 ├── documents
+│   ├── aeronautical-engineer
+│   │   ├── dark.pdf
+│   │   └── light.pdf
+│   └── developer
+│       ├── dark.pdf
+│       └── light.pdf
+├── html
+│   ├── aeronautical-engineer.html
+│   └── developer.html
 ├── styles
-├── index.html
+│   ├── dark.css
+│   ├── fonts.css
+│   └── light.css
+├── LICENSE
 └── README.md
+
+11 directories, 18 files
 ```
 
 ## Author

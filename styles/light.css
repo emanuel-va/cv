@@ -183,12 +183,12 @@ img {
     border-radius: calc(var(--br) - (var(--g) * 2));
     padding: calc(var(--g) / 2) var(--g);
 }
-.skills__item :is(li:last-child, li:nth-child(5)) {
+.skills__item :is(li:nth-child(7), li:nth-child(8), li:last-child) {
     margin-bottom: calc(var(--g) / 2);
 }
 .skills__item--dev ul {
     display: grid;
-    grid-template-columns: repeat(2, 1fr)
+    grid-template-columns: repeat(3, 1fr);
 }
 
 /* languages */
